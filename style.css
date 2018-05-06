@@ -1,0 +1,215 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(geo.png) no-repeat;
+  background-size: cover;
+}
+/*CAIXA DE PERFIL*/
+.box{
+  width: 400px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 2%;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/*CAIXA DA IMG DE PERFIL*/
+.box-img{
+  border-radius: 50%;
+  width: 50%;
+
+}
+/*TEXTOS DE PERFIL E ORGANIZAÇÃO EM LISTA*/
+.box h1{
+  letter-spacing: 4px;
+  font-weight: 15s0;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+  font-size: 15px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+
+/* MENU */
+nav ul{
+  list-style: none;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.redes{
+  font-size: 32px;
+}
+
+.fa{
+  font-size: 32px;
+  color: #4ecdc4;
+}
+
+.fa:hover{
+  color: #f6f930;
+}
+
+nav li{
+
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;  
+}
+
+nav a{
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #fff;
+  display: block;
+  transition: 0.8s background-color;
+}
+
+nav a:hover{
+  background-color: #4ecdc4;
+  color: #000f0d;
+}
+
+.active {
+  background-color: #c0cece;
+  color: #000f0d;
+}
+
+@media screen and (min-width: 660px){
+  nav li{
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+  nav li{
+    display: inline-block;
+    margin-right: -4px;
+  }
+}
+@media screen and (max-width: 660px){
+  .box{
+    width: 100%;
+    padding: 0px;
+  }
+  .box-img{
+    border-radius: 50%;
+    width: 80%;
+  }
+}
+/* GALERIA */
+/*CAIXA QUE CONTEM A GALERIA*/
+#portifolio{
+  width: 80%;
+  margin: auto;
+}
+
+
+/* BORDA NAS IMAGENS */
+div.gallery {
+    border: 1px solid white;
+    margin-bottom: 13px;
+}
+
+/* EFEITO MOUSE */
+div.gallery:hover {
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* TAMANHO IMAGEM */
+div.gallery img {
+  width: 100%;
+    height: auto;
+}
+
+/*LEGENDA DA IMAGEM*/
+div.desc {
+    padding: 4px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 1vw;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 6px 6px;
+    float: left;
+    width: 14%;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+#contato{
+  width: 80%;
+  margin: auto;
+}
+
+.icones{
+  padding: 17px;
+  text-align: center; 
+  background:#4ecdc4; 
+  width: 50px; 
+  height: 50px; 
+  margin: 1px;
+  float: left;
+  font-size: 24px; 
+  color: white;
+  display: -webkit-flex;
+  display: inline-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.entradas{
+  height: 50px; 
+  width: calc(100% - 54px);
+  padding: 10px;
+  color: black;
+  margin: 1px;
+}
+
+#mensage{
+  height: 100px;
+}
+
+#envie-button{
+    float: right; 
+    font-size: 1em;
+    border:none;
+}
