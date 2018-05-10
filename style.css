@@ -23,15 +23,18 @@ body{
 }
 /*TEXTOS DE PERFIL E ORGANIZAÇÃO EM LISTA*/
 .box h1{
+  padding: 10spx;
   letter-spacing: 4px;
   font-weight: 15s0;
 }
 .box h5{
+  padding: 10px;
   font-size: 20px;
   letter-spacing: 3px;
   font-weight: 100;
 }
 .box p{
+  padding: 10px;
   text-align: justify;
   font-size: 15px;
 }
@@ -152,7 +155,7 @@ div.desc {
     padding: 4px;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
-    color: white;
+    color: black;
     font-size: 1vw;
 }
 
