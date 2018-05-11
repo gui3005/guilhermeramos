@@ -108,6 +108,12 @@ nav a:hover{
   nav li{
     display: inline-block;
     margin-right: -4px;
+  {
+    .responsive {
+        width: 100%;
+    }
+}
+
   }
 }
 @media screen and (max-width: 660px){
@@ -170,9 +176,12 @@ div.desc {
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 660px) {
     .responsive {
         width: 100%;
+    }
+    div.desc{
+      font-size: 1em;
     }
 }
 
