@@ -4,6 +4,7 @@ body{
   background: url(fundo.jpg) no-repeat;
   background-size: cover;
 }
+
 /*CAIXA DE PERFIL*/
 .box{
   width: 400px;
@@ -15,6 +16,7 @@ body{
   color: white;
   font-family: 'Josefin Sans', sans-serif;
 }
+
 /*CAIXA DA IMG DE PERFIL*/
 .box-img{
   border-radius: 50%;
@@ -38,6 +40,7 @@ body{
   text-align: justify;
   font-size: 15px;
 }
+
 ul{
   margin: 0;
   padding: 0;
